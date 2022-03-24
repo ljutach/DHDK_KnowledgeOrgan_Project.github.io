@@ -187,8 +187,8 @@ padding: 0px;
 border-left: 10px solid #b3d218;
 }
 .navbar ul {
-margin: 0px;
-padding: 0;
+margin: 60px;
+padding: 10;
 display: flex;
 list-style: none;
 align-items: center;
@@ -197,7 +197,7 @@ border-left: 2px solid #b3d218;
 .navbar ul li{
 position: fixed; 
 float:inline-start;
-text-align:match-parent;} 
+} 
 
 .navbar ul ul{ 
 display: none; 
