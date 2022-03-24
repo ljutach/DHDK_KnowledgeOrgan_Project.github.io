@@ -235,7 +235,7 @@ color:black;
   width: 25px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #fff;
+  color: rgb(76, 67, 67);
 }
 .navbar li ul
 {
