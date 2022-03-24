@@ -258,7 +258,9 @@ display: none
 
 .navbar ul li a{ display: block;
 text-decoration: none; 
-color: red; }
+color: red; 
+padding 15px 25px; 
+font-size: 1.2em;}
 .navbar li li { 
   border:none; width:150px; 
 }
