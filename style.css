@@ -257,7 +257,8 @@ display: none
 }
 
 .navbar ul li a{ display: block;
-text-decoration: none; }
+text-decoration: none; 
+color: red; }
 .navbar li li { 
   border:none; width:150px; 
 }
