@@ -233,6 +233,47 @@ h1, h2, h3, h4, h5, h6 {
 .navbar ul li:hover{
   display: block;
 }
+
+.navbar ul ul{
+  display:none; 
+  position:absolute;
+  top: 100%;
+  left: 0; 
+  width: 100%;
+}
+
+.navbar ul li{
+  position: relative;
+  float: left;
+}
+.navbar ul li:hover{
+  display: block;
+}
+
+
+.navbar ul li li{
+  position:relative;
+  float:none;
+  width: 100%;
+  border: none;
+}
+
+.navbar ul li a {
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 15px 25px;
+  font-size: 1.2em;
+  box-sizing: border-box;
+  border-right: solid 2px #000;
+  border-left: solid 2px #000
+
+}
+.navbar ul ul li a{
+  font-size: 1rem;
+  border-bottom: solid 2px #000;
+
+}
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
