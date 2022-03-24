@@ -190,6 +190,9 @@ margin: 0;
 padding: 0;
 list-style-type: none;
 }
+.navbar ul li{
+position: relative; 
+float:left;} 
 .navbar ul ul{ 
 display: none; 
 top:100%;
