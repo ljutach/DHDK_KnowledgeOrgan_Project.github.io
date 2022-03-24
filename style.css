@@ -259,7 +259,7 @@ display: none
 .navbar ul li a{ display: block;
 text-decoration: none; 
 color: red; 
-padding 25px 65px 65px 25px; 
+padding 55px 65px 65px 25px; 
 font-size: 1.2em;}
 .navbar li li { 
   border:none; width:150px; 
