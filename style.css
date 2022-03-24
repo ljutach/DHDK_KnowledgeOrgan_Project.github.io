@@ -229,6 +229,8 @@ h1, h2, h3, h4, h5, h6 {
 .navbar ul li{
   position: relative;
   float: left;
+  width: 20%;
+  text-align: center;
 }
 .navbar ul li:hover{
   display: block;
