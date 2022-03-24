@@ -18,11 +18,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-<<<<<<< Updated upstream
   background: #040404 url("/DHDK_KnowledgeOrgan_Project.github.io/bg.jpg") top right no-repeat;
-=======
-  background: #040404 url("/DHDK_KnowledgeOrgan_Project.github.iobg2.jpg") top right no-repeat;
->>>>>>> Stashed changes
   background-size: cover;
   left: 0;
   right: 0;
