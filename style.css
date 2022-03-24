@@ -253,9 +253,11 @@ color:black;
 }
 .navbar li ul
 {
-display: nonew
+display: none
 }
 
+.navbar ul li a{ display: block;
+text-decoration: none; }
 .navbar li li { 
   border:none; width:150px; 
 }
