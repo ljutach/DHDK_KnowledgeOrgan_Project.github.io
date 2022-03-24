@@ -234,6 +234,22 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
 }
 
+.navbar ul ul{
+  display:none; 
+  position:absolute;
+  top: 100%;
+  left: 0; 
+  width: 100%;
+}
+
+.navbar ul li{
+  position: relative;
+  float: left;
+}
+.navbar ul li:hover{
+  display: block;
+}
+
 
 .navbar ul li li{
   position:relative;
@@ -258,7 +274,6 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: solid 2px #000;
 
 }
-
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
