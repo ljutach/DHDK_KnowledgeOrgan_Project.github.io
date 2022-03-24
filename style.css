@@ -192,6 +192,9 @@ list-style-type: none;
 }
 .navbar ul ul{ 
 display: none; 
+top:100%;
+left: 0;
+width: 100%;
 }
 .navbar li {
 width:100px;
