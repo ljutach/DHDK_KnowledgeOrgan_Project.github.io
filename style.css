@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
 #header h1 a, #header h1 a:hover {
-  color: rgb(206, 41, 41);
+  color: rgb(8, 7, 7);
   line-height: 1;
   display: inline-block;
 }
@@ -180,12 +180,11 @@ border:5px solid black;
 .navbar {
 font-family: 'Times New Roman', Times, serif;
 font-style: oblique;
-font-size: 150%;
-width: 100%;
+font-size: 12px;
 float: left;
-margin-top: 35px;
+margin-top: 10px;
 padding: 0px;
-border-left: 2px solid #b3d218;
+border-left: 10px solid #b3d218;
 }
 .navbar ul {
 margin: 0px;
