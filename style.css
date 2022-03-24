@@ -183,14 +183,16 @@ font-style: oblique;
 font-size: 150%;
 width: 100%;
 float: left;
-margin: 0px;
-padding-left: 50px;
+margin-top: 35px;
+padding: 0px;
 border-left: 2px solid #b3d218;
 }
 .navbar ul {
-margin-left: 50px;
+margin: 0px;
 padding: 0;
-list-style-type: none;
+display: flex;
+list-style: none;
+align-items: center;
 border-left: 2px solid #b3d218;
 }
 .navbar ul li{
@@ -206,6 +208,7 @@ width: 100%;
 }
 
 .navbar li {
+position: relative;
 width:100px;
 float:left;
 margin: 0;
@@ -213,21 +216,24 @@ padding: 0;
 color:black;
 }
 .navbar a, .navbar a:focus {
-  display: block;
+  display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5px;
+  padding: 0px;
   font-family: "Poppins", sans-serif;
-  font-size: 16px;
+  font-size: 40px;
   font-weight: 400;
   color: rgba(35, 26, 26, 0.7);
   white-space: nowrap;
   transition: 0.3s;
 }
 .navbar a i, .navbar a:focus i {
-  font-size: 20px;
+  font-size: 12px;
   line-height: 0;
   margin-left: 5px;
+}
+.navbar li+ li{
+margin-left: 50px;
 }
 .navbar a:before {
   content: "";
