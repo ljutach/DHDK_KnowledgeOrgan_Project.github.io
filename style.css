@@ -288,11 +288,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar ul li:hover a{
 background: #FFF; 
-color: #000;
+color: transparent;
 text-decoration: none;
 transition: 0.5s;}
 
-
+.navbar li ul{
+  display: none;
+}
 .navbar ul li li:hover a{
 background: transparent;
 color: #FFF;
